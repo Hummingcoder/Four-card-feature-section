@@ -47,8 +47,9 @@ main {
   font-size: 1.6rem;
 }
 .heading .desc {
+  font-size: 15px;
   margin: 0 auto;
-  max-width: 460px;
+  max-width: 520px;
   margin-top: 1.2rem;
   line-height: 1.6;
 }
@@ -109,11 +110,16 @@ main {
   color: hsl(228, 45%, 44%);
 }
 
-@media (width > 1160px) {
+@media (width > 560px) {
   .heading .thin,
   .heading .bold {
-    font-size: 2rem;
+    font-size: 2.6rem;
   }
+  .heading .desc {
+    font-size: 16px;
+  }
+}
+@media (width > 1160px) {
   .cards_container {
     flex-direction: row;
   }
