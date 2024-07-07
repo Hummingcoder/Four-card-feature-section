@@ -48,7 +48,7 @@ main {
 }
 .heading .desc {
   margin: 0 auto;
-  max-width: 420px;
+  max-width: 460px;
   margin-top: 1.2rem;
   line-height: 1.6;
 }
@@ -97,6 +97,16 @@ main {
 }
 .blue {
   border-top: 4px solid var(--Blue);
+}
+.attribution {
+  background: var(--VeryLightGray);
+  font-size: 11px;
+  text-align: center;
+  padding: 1rem;
+}
+.attribution a {
+  font-size: 12px;
+  color: hsl(228, 45%, 44%);
 }
 
 @media (width > 1160px) {
